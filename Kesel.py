@@ -10,16 +10,9 @@ Y0 = '\033[0;33m'
 try:
  os.system("clear")
  print """%s
- 
- %$=================================%$
- 
  %sAuthor by: Ryzz_ D1P5EY%s
  %sGithub   : github.com/Ryzz03%s
  %sTeam     : PARASIT CYBER ALLIANCE%s
- 
- %$=================================%$
- 
- 
  %sSpam WhatsApp Auto Nangis"""%(G0,W0,G0,W0,G0,W0,G0,G0)
  gg = raw_input("%s[%s?%s] %sMasukkan nomor target (ex:08xxx) : "%(W0,C0,W0,W0))
  gi = int(raw_input("%s[%s?%s] %sMau ngirim berapa kak? : "%(W0,C0,W0,W0)))
