@@ -14,7 +14,7 @@ try:
  %sAuthor   : Ryzz%s
  %sWhatsApp : +6282192959xxx%s
  %s============================%s
- %sSpam Whatsapp AutoNangis"""%(G0,RO,G0,RO,G0,W0,G0,G0)
+ %sSpam Whatsapp AutoNangis"""%(G0,R0,G0,R0,G0,W0,G0,G0)
  gg = raw_input("%s[%s?%s] %sIsi nomornya target kak (ex:0821xxx) : "%(W0,C0,W0,W0))
  gi = int(raw_input("%s[%s?%s] %sMau ngirim berapa? : "%(W0,C0,W0,W0)))
  c = 1
