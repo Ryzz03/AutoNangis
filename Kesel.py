@@ -4,7 +4,6 @@ import os, sys, json
 import requests as r
 try:
  os.system("clear")
- print
  banner = """
  \033[1;97m
  ==================================================
