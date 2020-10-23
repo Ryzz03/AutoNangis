@@ -9,11 +9,14 @@ R0 = '\033[0;31m'
 Y0 = '\033[0;33m'
 try:
  os.system("clear")
- print """%s
- %sAuthor by: Ryzz_ D1P5EY%s
- %sGithub   : github.com/Ryzz03%s
- %sTeam     : PARASIT CYBER ALLIANCE%s
- %sSpam WhatsApp Auto Nangis"""%(G0,W0,G0,W0,G0,W0,G0,G0)
+ banner = """
+ \033[1;97m
+ ==================================================
+ Author    \033[1;91m:\033[1;96mRyzz03\033[1;97m
+ Facebook  \033[1;91m:\033[1;96malvarez.wicker\033[1;97m
+ Whatsapp  \033[1;91m:\033[1;92m+6282192959xxx\033[1;97m
+ ==================================================
+ """(G0,W0,G0,W0,G0,W0,G0,G0)
  gg = raw_input("%s[%s?%s] %sMasukkan nomor target (ex:08xxx) : "%(W0,C0,W0,W0))
  gi = int(raw_input("%s[%s?%s] %sMau ngirim berapa kak? : "%(W0,C0,W0,W0)))
  c = 1
