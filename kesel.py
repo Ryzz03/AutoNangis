@@ -27,7 +27,7 @@ try:
    print "%s[%s%s%s] %sGAGAL %sdikirim ke %s%s"%(W0,C0,str(c),W0,R0,W0,Y0,gg)
    c += 1
 # print (h)
-except r.exceptions.ConnectionError:
+except requests.exceptions.ConnectionError:
    print "%s[%s!%s] %sKoneksi buruk, Coba lagi nanti"%(W0,C0,W0,R0)
 except KeyboardInterrupt:
    print "\r%s[%s-%s] %sNtar aja yah :)"%(W0,C0,W0,W0)
