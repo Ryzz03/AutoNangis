@@ -14,7 +14,7 @@ try:
  %sAuthor   : Ryzz%s
  %sWhatsApp : +6282192959xxx%s
  %sTeam     : P4R4S1T CYBER%s
- %s========[AutoNangis]========"""%(G0,W0,G0,Y0,G0,Y0,G0,Y0,W0,G0)
+ %s========[AutoNangis]========"""%(G0,W0,G0,Y0,G0,Y0,G0,Y0,G0,W0,G0)
  gg = raw_input("%s[%s?%s] %sNo. WA Target (ex:08xxx) : "%(W0,C0,W0,R0))
  gi = int(raw_input("%s[%s?%s] %sMau ngirim berapa kak? : "%(W0,C0,W0,R0)))
  c = 1
